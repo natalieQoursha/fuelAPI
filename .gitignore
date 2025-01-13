@@ -1,0 +1,31 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+*/migrations/
+
+# Django database file (SQLite)
+db.sqlite3
+
+# Virtual environment directory
+/env/
+.env/
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Media and static files (optional if you have media/static directories)
+media/
+static/
+
+# Django secret key and sensitive information (optional)
+*.env
+
+# PostgreSQL database backup files
+*.sql
+*.bak
